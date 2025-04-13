@@ -12,6 +12,7 @@ body {
     height: 100vh;
     overflow-x: hidden; /* Remove a rolagem lateral */
     background-color: white;
+    background-color: #fffb00;
 }
 main{
     display: flex;
@@ -173,13 +174,13 @@ li#ctt{
 }
 
 
-/*                                   CONTEÚDO                                          */
+/*                                   CONTEÚDO > Serviços                                         */
 .servicos{
     display: flex;
     justify-content: center;
     align-items: center;
     box-shadow: 0px -316px 192px 207px white;
-    
+    background-color: white;
     position: relative;
     margin-top: 1000px;
 }
@@ -348,155 +349,180 @@ li#ctt{
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
 }
-
-/*                                   CONTEÚDO > Sobre                                    */
-
-
-.sobreNos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color:#00b2ff;
-    width: 100vw;
-    height: 100%;
-    
-    
-    
-}   
-.sobre{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100vw;
-    height: 30%;
-    
-    
-    
-    
-    
-}
-.controleSobre h1{
-    font-size: 100px;
+.curvas p{
+    font-size: 55px;
     position: relative;
-    text-align: center;
-    justify-content: center;
-    color: rgb(255, 255, 255);
-    font-family: "Libre Baskerville", serif;
-    text-shadow: 0px 1px 149px rgba(0, 0, 0, 0.336);
-    bottom: 100px;
-    
+    top: 250px;
     
 }
-.primeiroCampoSobre{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    width: 100%;
-    position: relative;
-    
-    
-    
-    
+#imgCurvasAmerlasInvertida{
+    background-image: url(/image/imgCurvasAmarelaInvertida.png);
 }
-#pTextoSobre {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    
-    
-    
-}
-#pTextoSobre i{
-    color: rgb(230, 196, 4);
-    padding: 0px;
-    font-size: 80px;
-    display: none;
-}
-
-.controleSobre .primeiroCampoSobre #pTextoSobre{
-    text-align: center;
-    line-height: 39px;
-    text-indent: 20px;
-    border-radius: 20px 20px 0 0 ;
-    font-size: 23px;
-    width: 60%;
-    height: 25vh;
-    padding: 7px 8px;
-    box-shadow:0px 0px 18px 3px rgba(0, 0, 0, 0.075);
-    color: rgba(0, 0, 0, 0.445);
-    border: .5px solid rgba(255, 255, 255, 0.116);
-    transition: all 2s;
-    background-color: rgb(255, 255, 255);
-    font-family: "Libre Baskerville", serif;
-    
-}
-.controleSobre .primeiroCampoSobre #pTextoSobre:hover{
-    color: black;
-}
-.controleSobre{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    
-    
-}
-
-/*                                   Conteúdo > ImgBackground                                   */
-#img1{
-    background-image: url(/image/limpando.png);
-}
-.primeiroBackground {
-    width: 100vw; /* Agora ocupa toda a tela */
-    height: 100vh; /* Garante que ocupa toda a altura */
-    background-image: url('/image/limpando.png');
+.curvas{
+    width: 100vw;
+    height: 68vh;
     background-repeat: no-repeat;
     background-size: cover; /* Garante que a imagem ocupa toda a tela */
-    background-position: 0% 64%; /*100% na horizontal e 0% na vertical*/
-    background-attachment: fixed; /* Mantém fixo ao rolar a página */
-    border-radius: 0 0 40px 40px;
-
+    background-position:0% 90%; /*100% na horizontal e 0% na vertical*/
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.controleBackground {
+
+/*                                   Conteúdo > resultados                                   */
+.resultados{
     width: 100vw;
     height: 100vh;
+    
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: white;
+    
+}
+.resultados p{
+    font-size: 55px;
+
 }
 
+/*                                   Conteúdo > certificado                                   */
 
-.primeiroBackground h1 {
-    color: rgba(0, 0, 0, 0.582);
-    font-size: 29px;
+
+.certificado{
+    background-color:#ffffff;
+    width: 100vw;
+    height: 100%;
+    border-radius: 0 0 50px 50px;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+.certificadoTXT{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+    
+    
+}
+.certificadoTXT h1{
+    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.671);
+    color: #00b2ff;
+    font-size: 120px;
     text-align: center;
+    position: relative;
+    bottom: 85px;
     font-family: "Libre Baskerville", serif;
-    width: 95%;
-
+    
+    
 }
+.certificadoTXT p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding: 90px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 41px -23px blue;
+    font-family: "Libre Baskerville", serif;
+    
+    
+}
+.certificadoTXT h2{
+    color: rgba(146, 146, 2, 0.63);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 95px;
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 0px 1px 249px rgb(0, 0, 0);
+    
+}
+.certificadoIMG{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.certificadoIMG img{
+    border-radius: 50px;
+    width: 600px;
+    transform: scale(.8);
+        
+}
+
+/*                                   Conteúdo > controleRedes                                   */
+
+.controleRedes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    gap: 400px;
+    width: 100vw;
+    height: 14vh;
+    background-color: #fffb00;
+}
+
+i#instagram{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+    
+}
+i#instagram:hover{
+    color: rgb(255, 0, 85);
+    transition-duration: 0s;
+}
+i#facebook{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+    
+}
+i#facebook:hover{
+    color: rgb(0, 102, 255);
+    transition-duration: 0s;
+}
+i#youtube{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+}
+i#youtube:hover{
+    color: red;
+    transition-duration: 0s;
+}
+
 
 /*                                   Conteúdo > conteudo                                   */
 
 .conteudo{
-    background-color:#a0e2ff;
     width: 100vw;
-    height: 150%;
-    border-radius: 40px 40px 0 0;
-
-
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 110px;
+    background-color: white;
+    
+    border-radius: 50px 50px 0 0;
 
 } 
 .midiaConteudo{
@@ -507,31 +533,16 @@ li#ctt{
     gap: 20px;
     flex-wrap: nowrap;
     position: relative;
-    bottom: 60px;
 
 }
 
 .midiaConteudo iframe{
-    width: 600px;
-    height: 900px;
+    width: 500px;
+    height: 600px;
     
     padding: 10px;
     text-align: center;
     box-shadow: 0px 49px 86px -58px rgba(0, 0, 0, 0.459);
-}
-.facebook{
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    text-align: center;
-    justify-content: space-between;
-    gap: 100px;
-    
-}
-.facebook iframe{
-    height: 680px;
-    border-radius: 40px 40px 0 0;
-
 }
 .youtube{
     display: flex;
@@ -547,195 +558,41 @@ li#ctt{
     border-radius: 0 0 40px 40px;
 }
 
-.controleRedes{
-    display: flex;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    position: relative;
-    bottom:47px;
-    gap: 400px;
-}
-
-.midiaConteudo i#instagram{
-    position: relative;
-    font-size: 90px;
-    color: rgba(0, 0, 0, 0.664);
-    padding: 10px 0px;
-    transition: all 10s;
-    
-}
-.midiaConteudo i#instagram:hover{
-    color: rgb(255, 0, 85);
-    transition-duration: 0s;
-}
-.midiaConteudo i#facebook{
-    position: relative;
-    font-size: 90px;
-    color: rgba(0, 0, 0, 0.664);
-    padding: 10px 0px;
-    transition: all 10s;
-    
-}
-.midiaConteudo i#facebook:hover{
-    color: rgb(0, 102, 255);
-    transition-duration: 0s;
-}
-.midiaConteudo i#youtube{
-    position: relative;
-    font-size: 90px;
-    color: rgba(0, 0, 0, 0.664);
-    padding: 10px 0px;
-    transition: all 10s;
-}
-.midiaConteudo i#youtube:hover{
-    color: red;
-    transition-duration: 0s;
-}
 
 
 
-/*                                   Conteúdo > blog                                   */
 
-
-.blog{
-    background-color:#ffffff;
-    width: 100vw;
-    height: 100%;
-   
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 50px;
-    
-
-}
-.bloxTexto{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 800px;
-    border-radius: 10px;
-    
-    
-}
-.bloxTexto h1{
-    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.671);
-    color: yellow;
-    font-size: 120px;
-    text-align: center;
-    position: relative;
-    bottom: 85px;
-    font-family: "Libre Baskerville", serif;
-    
-    
-}
-.bloxTexto p{
-    color: rgba(0, 0, 0, 0.582);
-    font-size: 30px;
-    text-align: center;
-    line-height: 50px;
-    padding: 90px 0;
-    border-radius: 20px;
-    box-shadow: 0px 0px 41px -23px blue;
-    font-family: "Libre Baskerville", serif;
-    
-    
-}
-.bloxTexto h2{
-    color: rgba(146, 146, 2, 0.63);
-    font-size: 30px;
-    text-align: center;
-    position: relative;
-    top: 95px;
-    font-family: "Libre Baskerville", serif;
-    text-shadow: 0px 1px 249px rgb(0, 0, 0);
-    
-}
-.blogImg{
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-.blogImg img{
-    border-radius: 50px;
-    width: 600px;
-    transform: scale(.8);
-        
-}
 
 /*                                   CONTEÚDO > CurvasAzul                                    */
-#imgCurvasAzul{
-    background-image: url(/image/imgCurvasAzul.png);
+#imgcurvasBranca{
+    background-image: url(/image/imgCurvasBranca.png);
 }
-.curvasAzul{
+.curvasBranca{
     width: 100vw;
-    height: 30vh;
+    height: 40vh;
     background-repeat: no-repeat;
     background-size: cover; /* Garante que a imagem ocupa toda a tela */
-    background-position:0% 70%; /*100% na horizontal e 0% na vertical*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:0px 0px 283% 125%;
-}
+    background-position:0% 25%; /*100% na horizontal e 0% na vertical*/
 
-
-/*                                   Conteúdo > Curva Azul BB                                   */
-
-#imgCurvasAzulBB{
-    background-image: url(/image/imgCurvasAzulBB.png);
-}
-.curvasAzulBB{
-    width: 100vw;
-    height: 26vh;
-    background-repeat: no-repeat;
-    background-size: cover; /* Garante que a imagem ocupa toda a tela */
-    background-position:0% 50%; /*100% na horizontal e 0% na vertical*/
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius:0px 24% 0 0;
-}
-.curvasAzulBB h1{
-    text-align: center;
-    font-family: "Libre Baskerville", serif;
-    font-size: 100px;
-    color: rgb(0, 132, 255);
     position: relative;
-    bottom: 55%;
-    padding: 10px;
-    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.863);
-    border-radius: 10px;
-    border: .1px solid rgba(0, 132, 255, 0.199);
-}
-.curvasAzulBB p{
-    font-family: "Libre Baskerville", serif;
-    font-size: 30px;
-    color: #00eaff7a;
-    position: relative;
-    bottom: 35%;
-    text-shadow: 0px 1px 249px rgb(0, 0, 0);
-
+    background-color: #fffb00;
+    
 }
 
 
-/*                                   Conteúdo > FAQ                                   */
 
-.faq{
+/*                                   Conteúdo > ajuda                                   */
+
+.ajuda{
     height: 100vh;
     width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: yellow;
+    background-color: #fffb00;
 
 }
-.faq p{
+.ajuda p{
     font-size: 50px;
     padding: 100px;
     border-radius: 10px;
@@ -858,10 +715,11 @@ li#ctt{
 footer .pre_rodape{
     width: 100vw;
     height: 50%;
-    background-color: #00b2ff;
+    background-color: #fffb00;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 
 }
 .controle_pre_rodape{
@@ -871,6 +729,11 @@ footer .pre_rodape{
     align-items: center;
     flex-wrap: nowrap;
     padding: 10px 0;
+    margin-bottom: 14px;
+}
+.controle_pre_rodape:hover{
+    border-radius: 10px;
+    border: .5px solid #afac0248;
 }
 .caixas{
     display: flex;
@@ -907,7 +770,7 @@ footer .pre_rodape{
 .rodape{
     width: 100vw;
     height: 50%;
-    background-color: #00b2ff;
+    background-color: #38c2fd;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -1024,14 +887,14 @@ footer .pre_rodape{
 footer .rodape .criador{
     width: 100vw;
     height: 4vh;
-    background-color: #444001a8;
+    background-color: #015477;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 footer .rodape .criador a{
-    color: #00b2ff;
+    color: #e5ff00;
     text-decoration: none;
     padding: 0 3px;
     border-radius: 5px;
