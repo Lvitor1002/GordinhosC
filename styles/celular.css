@@ -1,0 +1,1010 @@
+@charset "UTF-8";
+
+
+@media screen and (max-width: 1925px){
+    .menu ul li{
+        position: relative;
+        left: 90px;
+        
+    }
+}
+@media screen and (max-width: 1710px){
+    .controle{
+        gap: 0px;
+        flex-wrap: nowrap;
+    
+    }
+    .texto{
+        left: 300px;
+    }
+
+    .primeiroCampoSobre {
+        
+        gap: 0px;
+    }
+    #pTextoSobre i{
+        padding: 0px;
+        margin: 0px;
+    }
+    .facebook{
+        gap: 250px;
+    }
+    .youtube{
+        gap: 250px;
+    }
+    .controleRedes{
+
+        gap: 200px;
+    }
+    .formulario{
+        width: 80vw;
+    }
+    .formulario form{
+        width: 70vw;
+         
+    }
+
+    
+    
+}
+
+@media screen and (max-width: 1430px){
+    .texto{
+        left: 240px;
+    }
+    .facebook{
+        gap: 90px;
+    }
+    .youtube{
+        gap: 90px;
+    }
+
+    
+    
+}
+@media screen and (max-width: 1425px){
+    .barraAmarela{
+        width: 77%;
+    }
+    .botaoContato button{
+        left: 40px;
+        
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 80%;
+        
+    }
+}
+@media screen and (max-width: 1320px){
+    .menu ul li{
+        position: relative;
+        left: 50px;
+        
+    }
+    .controle{
+        right: 150px;
+    }
+    .controle img{
+        height: 60vh;
+        width: 40vw;
+        top: 0px;
+        bottom: 50px;
+    }
+}
+@media screen and (max-width: 1240px){
+    .barraAmarela{
+        width: 77.9%;
+    }
+    .botaoContato button{
+        left: 70px;
+        
+    }
+    .menu ul li{
+        padding: 0 10px;
+        font-size: 20px;
+    }
+    
+
+    
+}
+@media screen and (max-width: 1230px){
+    .texto{
+        left: 90px;
+    }
+    .controle{
+        left: 30px;
+    }
+    .controle img{
+        width: 40vw;
+        top: 40px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
+    .sobre{
+        margin-top: 50px;
+        
+    }
+
+    .blog{
+        flex-direction: column;
+    
+    }
+    .bloxTexto h1{
+        bottom: 0px;
+        
+    }
+    .bloxTexto h2{
+        top: 0px;
+        
+    }
+    
+}
+@media screen and (max-width: 1140px){
+    .texto{
+        left: 100px;
+    }
+    .controle img{
+        height: 60vh;
+        top: 40px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
+    .sobre{
+        margin-top: 50px;
+        
+    }
+    .linha{
+        left: -90px;
+
+    }
+    .primeiroCampoSobre {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 80%;
+        
+    }
+    #pTextoSobre{
+        flex-direction: column;
+    }
+    #pTextoSobre i{
+        font-size: 70px;
+    }
+    .conteudo{
+        
+        height: 180%;
+        margin-top: 0px;
+    } 
+   
+    
+
+    .facebook{
+        flex-direction: column;
+    }
+    .youtube{
+        flex-direction: column;
+    }
+    .controleRedes{
+        gap: 100px;
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width: 1110px){
+    .barraAmarela{
+        width: 76%;
+    }
+    .menu ul li{
+        font-size: 18px;
+    }
+    
+    
+}
+@media screen and (max-width: 1030px){
+    .barraAmarela{
+        width: 74%;
+    }
+    .botaoContato button{
+        left: 50px;
+        
+    }
+    #iniciar{
+        left: 10px;
+    }
+    .menu ul li{
+        font-size: 17px;
+    }
+
+    .texto{
+        left: -80px;
+        
+    }
+    .linha{
+        left: -250px;
+        
+    }
+    .controle{
+        flex-direction: column;
+        left: -20px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 80vw;
+        bottom: 10px;
+        left: -80px;
+    }
+    .controle img{
+        height: 90vh;
+        width: 90%;
+        top: 140px;
+        left: 50px;
+    }
+    
+}
+@media screen and (max-width: 1025px){
+
+    .barraAmarela{
+        width: 74.6%;
+    }
+    .botaoContato button{
+        left: 80px;
+    }
+
+}
+@media screen and (max-width: 1010px){
+    .barraAmarela{
+        width: 73%;
+        left: 190px;
+    }
+    .botaoContato button{
+        display: none;
+        
+    }
+    #iniciar{
+        display: block;
+    }
+    li#ctt{
+        display: block;
+        cursor: pointer;
+        background-color: rgb(0, 153, 255);
+        color: white;
+        border-radius: 18px;
+        font-size: 19px;
+        font-weight: bold;
+    }
+    .controleh1 h1{
+        font-size: 85px;
+        top: 50px;
+    }
+    
+    
+}
+@media screen and (max-width: 900px){
+    
+    .menu{
+        display: none;
+        
+    }
+    .bi {
+        width: 46px;
+        font-size: 75px;
+        top: 4px;
+        z-index: 1;
+        display: inline-block; /* Muda para inline-block para ser afetado por text-align */
+        border-radius: 10px;
+        position: relative;
+        left: 230px;
+        cursor: pointer;
+        color: rgb(0, 153, 255);
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        font-size: 16px;
+    }
+    
+    
+    .linha{
+        display: none;
+
+    }
+    .logo_redes{
+        justify-content: center;
+        
+    }
+    .logo_redes img{
+        left: -60px;
+    }   
+    .controleRedes2 i{
+        left: -60px;
+    
+    }
+    .controle_icon #email{
+        left: -60px;
+    }
+    .controle_icon #wpp{
+        
+        left: -60px;
+    }
+    
+    
+}
+@media screen and (max-width: 885px){
+    
+    .controleRedes{
+        left: -200px;
+    }
+    
+}
+@media screen and (max-width: 870px){ 
+    .barraAmarela{
+        width: 75%;
+        left: 130px;
+    }
+    .bi {
+        left: 200px;
+    }
+    
+    .controle img{
+        width: 70vw;
+        height: 80vh;
+        top: 40px;
+    }
+    
+}
+@media screen and (max-width: 845px){
+    
+    
+    
+    .controle .primeiroCampoTxt h1{
+        font-size: 23px;
+ 
+    }
+    .controle .primeiroCampoTxt h3{
+
+        font-size: 15px;
+
+    }
+    .controle .primeiroCampoTxt #h3Gordin{
+        font-size: 20px;
+    }
+    
+    .contate{
+        justify-content: center;
+        flex-direction: column;
+     
+    } 
+    .logo_redes{
+        justify-content: center;
+        flex-direction: column;
+        
+    } 
+     
+    .controleRedes2 i{
+        left: -16px;
+        margin: 0 19px;
+    
+    }
+    .controle_icon #email{
+        left: 5px;
+    }
+    .controle_icon #wpp{
+        top: -20px;
+        
+    }
+    
+    
+    
+    
+}
+@media screen and (max-width: 767px){
+    .barraAmarela{
+        width: 75%;
+    }
+    .logo img{
+        right: 40px;
+        
+    }
+    .bi {
+        left: 190px;
+    }
+    #iniciar{
+        top: 350px;
+    }
+    .controleh1 h1{
+        font-size: 46px!important;
+        top: 0px;
+    }
+    
+   
+    
+}
+
+
+@media screen and (max-width: 729px){
+    
+    .texto{
+        gap: 0px;
+        left: -90px;
+
+    }
+    .controle{
+        left: 0px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 80vw;
+        bottom: 10px;
+        left: -90px;
+    }
+    .controle img{
+        height: 60vh;
+        width: 80%;
+        top: 140px;
+        left: 10px;
+    }
+    .controle .primeiroCampoTxt h1{
+        font-size:21px;
+        display: inline-block;
+        white-space: wrap;
+        width: 640px;
+        line-height: 26px;
+        top: 50px;
+    
+    }
+     .controle .primeiroCampoTxt h3{
+        display: inline-block;
+        white-space: wrap;
+        width: 640px;
+
+        top: 65px;
+        line-height: 26px;
+        color: rgba(0, 0, 0, 0.644);
+    }
+    
+    
+    .controle .primeiroCampoTxt #pTexto{
+        line-height: 38px;
+        width: 540px;
+        top: 90px;
+        font-size: 20px;
+        line-height: 59px;
+    }
+    
+ 
+    
+}
+@media screen and (max-width: 670px){
+    .barraAmarela{
+        width: 78%;
+        left: 90px;
+    }
+    
+    .bi {
+        left: 150px;
+    }
+    
+    
+    
+}
+@media screen and (max-width: 660px){
+    .servicos{
+        margin-top: 300px;
+    }
+    .texto{
+        gap: 0px;
+        left: -100px;
+
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        left: -100px;
+    }
+    
+
+
+
+    .controle .primeiroCampoTxt h1{
+        font-size:20px;
+        width: 590px;
+    
+    }
+     .controle .primeiroCampoTxt h3{
+        font-size:17px;
+        width: 590px;
+        top: 60px;
+
+    }
+    .sobre h1{
+        font-size: 50px;
+        
+    }
+    
+
+    
+    .video-background{
+        display: none;
+    }
+    .controleCabecalhoGeral{
+        background-image: url(../image/FundoCabecalho.png);
+        background-repeat: no-repeat;
+        width: 100vw;
+        height: 100vh;
+    }
+
+    
+    
+    
+}
+
+@media screen and (max-width: 600px){
+    .bi {
+        left: 128px;
+    }
+}
+@media screen and (max-width: 590px){
+    .barraAmarela{
+        width: 71%;
+        left: 90px;
+    }
+    
+    
+    #iniciar button{
+        top: 190px;
+        font-size: 25px;
+        padding: 5px 30px;
+        left: -2px;
+    }
+    
+    .bi {
+        left: 100px;
+    }
+    .controleh1 h1{
+        top: 70px;
+        font-size: 37px;
+    }
+    
+    body{
+        overflow-x: hidden; /* Remove a rolagem lateral */
+    }
+    .controle{
+        bottom: 300px;
+        left: 1.5px;
+        
+    }
+    
+    .controle img{
+        height: 40vh;
+        width: 95%;
+        left: -30px;
+        top: 0px;
+        margin-top: 350px;
+        animation: flutuar
+        2s         /* 2s de duração da animação */
+        ease-in-out/* início e fim suave, rápido no centro*/
+        infinite   /* Mantém em loop */
+        alternate; /* Mantém alternando - ajuda na suavidade */
+        transition: 1s;
+
+    }
+    .controle img:hover{
+        cursor: none;
+        transform: scale(1);
+        
+    }
+    .controle img:active{
+        transition-duration: 1s;
+        transform: scale(1);
+        
+    }
+    
+    @keyframes flutuar {
+        0%{
+            right: 0px;
+        }100%{
+            left: 37px;
+        }
+    }
+    .sobreNos{
+        margin-top: 0px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        position: relative;
+        bottom: 300px;
+        
+        
+    }
+    .primeiroCampoTxt{
+        position: relative;
+        top: 250px;
+        
+    }
+    .servicos{
+        margin-top: 300px;
+        
+    }
+    .controle .primeiroCampoTxt h1{
+        width: 360px;
+        top: 10px;
+        
+    }
+    .texto{
+        bottom: 50px;
+        left: -99px;
+        
+        
+    }
+    .texto h1{
+        padding: 12px;
+        
+        
+    }
+    .texto h3{
+        padding: 10px 7px;
+    }
+    #pTextoSobre i{
+        display: block;
+        font-size: 60px;
+    }
+    
+    
+    .controle .primeiroCampoTxt h3{
+        width: 360px;
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.274);
+    }
+    .controle .primeiroCampoTxt #h3Gordin{
+        font-weight: 0;
+        font-size: 39px;
+    }
+    
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 340px;
+        left: -99px;
+        top: 40px;
+        font-size: 17px;
+        
+    }
+    .curvas{
+        height: 28vh;
+        position: relative;
+        bottom: 300px;
+    }
+    
+    .sobre .controleSobre{
+        
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    
+    .controleSobre h1{
+        font-size: 40px;
+        bottom: 62px;
+        flex-wrap: nowrap;
+        
+    }
+    
+    
+    .sobre .controleSobre .primeiroCampoSobre{
+        width: 400px;
+        
+        
+    }
+    .controleSobre .primeiroCampoSobre #pTextoSobre{
+        width: 370px;
+        text-align: center;
+        height: 48vh;
+        font-size: 16px;
+        line-height: 30px;
+        
+    }
+    .primeiroBackground{
+        height: 40vh;
+        
+        position: relative;
+        bottom: 548px;
+        background-attachment: scroll; /* Remove o efeito fixo no celular */
+        background-size: cover;
+        background-position: center center; /* Mantém a imagem bem posicionada */
+        
+    }
+    .primeiroBackground h1{
+        
+        font-size: 12px;
+        
+    }
+    
+    .controleRedes{
+        left: 40px;
+        gap: 60px;
+        bottom: 100px;
+        
+    }
+    .conteudo{
+        
+        height: 180%;
+        margin-top: 0px;
+        position: relative;
+        bottom: 680px;
+    } 
+    .midiaConteudo{
+        gap: 0;
+        flex-direction: column;
+        bottom: 0;
+        justify-content: center;
+        
+        
+    }
+    .midiaConteudo i#instagram{
+        font-size: 60px;
+
+        
+    }
+    
+    .midiaConteudo i#facebook{
+        font-size: 60px;
+    }
+    
+    
+    .midiaConteudo i#youtube{
+        font-size: 70px;
+        
+    }
+    
+    
+    .midiaConteudo iframe{
+        width: 340px;
+        padding: 10px 0;
+    }
+    .facebook iframe{
+        height: 580px;
+        
+    }
+    .youtube iframe{
+        height: 580px;
+        
+    }
+    .facebook{
+        justify-content: center;
+        gap: 0px;
+        padding: 0px;
+        margin: 0;
+    }
+    .youtube{
+        gap: 0px;
+        padding: 0px;
+        margin: 0;
+        
+    }
+    .blog{
+        flex-direction: column;
+        padding-top: 25px;
+        position: relative;
+        bottom: 690px;
+        
+    }
+    .bloxTexto{
+        width: 340px;
+        
+        
+    }
+    .bloxTexto h1{
+        font-size: 45px;
+        margin-bottom: 10px;
+        
+        
+        
+    }
+    .bloxTexto p{
+        margin: 20px 0;
+        font-size: 25px;
+        
+        
+        
+    }
+    .bloxTexto h2{
+        top: 0px;
+        
+        
+        
+    }
+    .blogImg img{
+        width: 400px;
+        padding: 0;
+        height: 600px;
+        margin-bottom: 10px;
+        
+        
+    }
+    .bloxTexto p{
+        font-size: 16px;
+        text-align: center;
+        padding: 10px 2px;
+        line-height: 39px;
+    }
+    .bloxTexto h2{
+        font-size: 20px;
+        top: 15px;
+        
+    }
+    .curvasAzul{
+        height: 28vh;
+        position: relative;
+        bottom: 760px;
+        border-radius:0px 0px 63% 0px;
+    }
+    .curvasAzulBB{
+        height: 30vh;
+        position: relative;
+        bottom: 820px;
+        border-radius:0px 0 0 0;
+    }
+    .faq{
+        height: 90vh;
+        position: relative;
+        bottom: 900px;
+        
+        
+    
+    }
+    .controle_pre_rodape{
+        justify-content: center;
+        flex-direction: column;
+    }
+    .caixas{
+        align-items: center;
+        width: 400px;
+        height: 250px;
+        padding: 0px;
+    }
+    #ajuda{
+        position: relative;
+        right: 22px;
+    }
+    #impor{
+        position: relative;
+        right: 10px;
+    }
+    .caixas ul a{
+        text-decoration: none!important;
+    }
+    .controleRedes2 i{
+        left: -16px;
+        margin: 0 15px;
+        
+        
+    }
+    .linhaDois{
+        display: none;
+    }
+    .controle_icon{
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .controle_icon #email{
+        left: 12px;
+        font-size: 18px;
+        
+    }
+    .controle_icon #wpp{
+        top: 0px;
+        left: -15px;
+        
+    }
+    .controle_icon a{
+        color: rgba(0, 0, 0, 0.295);
+        font-size: 18px;
+    }
+    .formulario h1{
+        width: 350px;
+        font-size: 18px;
+        padding: 0px;
+        margin: 0;
+        
+        
+    }
+    .formulario h2{
+        width: 300px;
+        font-size: 16px;
+        margin: 0;
+        
+        
+    }
+    .formulario form{
+        align-items: center;
+        width: 350px;
+        padding: 10px;
+        gap: 4%;
+        height: 550px;
+        
+    }
+    .formulario form input{
+        position: relative;
+        bottom: 0%;
+        padding: 10px 10px;
+        
+        
+    }
+    .formulario form textarea{
+        padding-bottom: 255px;
+        bottom: 0;
+        
+    }
+    .btnEnviar{
+        position: relative;
+        bottom: 20px;
+        
+    }
+    .btnEnviar button{
+        font-size: 22px;
+        color: rgba(0, 0, 0, 0.603);
+        position: relative;
+        top: 30px;
+
+    }
+    footer{
+        position: relative;
+        bottom: 900px;
+    }
+    footer .rodape .copyright{
+        font-size: 10px;
+        
+        
+    }
+    
+    
+    
+}
+@media screen and (max-width: 550px){
+    .bi {
+        left: 90px;
+    }
+}
+@media screen and (max-width: 500px){
+    
+    .barraAmarela{
+        width: 65%;
+    }
+    
+    .bi {
+        left: -30px;
+    }
+    .teste h1{
+        
+        font-size: 50px;
+        
+    }
+    .bi {
+        left: -50px;
+    }
+
+    
+}
+  
+@media screen and (max-width: 290px){
+    .controle .controleSobre h1{
+        width: 310px;
+    }
+    .controle .primeiroCampoTxt h3{
+        width: 255px;
+    }
+    
+    .controle .primeiroCampoTxt #pTexto{
+        width: 240px;
+    }
+    .controle img{
+        width: 240px;
+        
+    }
+    
+}
+

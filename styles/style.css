@@ -1,0 +1,1056 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body {
+    height: 100vh;
+    overflow-x: hidden; /* Remove a rolagem lateral */
+    background-color: white;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+/*                                    CABEÇALHO                                           */
+
+
+.video-background {
+    position: absolute;
+    
+    object-fit: cover; /* Garante que o vídeo preencha o container sem distorção */
+    z-index: -1; /* Para ficar atrás do conteúdo */
+    width: 2800px;
+}
+
+.controleCabecalhoGeral{
+    position: relative;
+    bottom: 20px;
+}
+.barraAmarela{
+    position: relative;
+    background-color: yellow;
+    top: 92px;
+    left: 200px;
+    height: 80px;
+    width: 77.6%;
+    border-radius: 20px;
+    z-index: 0;
+}
+.controleCabecalho{
+    margin: 0 auto;
+    width: 80%;
+    height: 55px;
+    padding: 0px 30px;
+    padding-top: 50px;
+    border-radius: 30px 0px 0px 30px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.logo img{
+    z-index: 1;
+    position: relative;
+    right: 20px;
+    bottom: 4px;
+    max-width: 120px;
+    
+}
+
+.menu{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    text-align:center; 
+}
+
+.menu ul li{
+    list-style-type: none; /* Remove os marcadores padrão */
+    padding: 0 20px;
+    display: inline;
+    font-size: 21px;
+    position: relative;
+    
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    border-radius: 5px;
+    transition: 2s;  
+    
+}
+.menu a:hover{
+    color: #00b2ff;
+    transition-duration: 0s;
+    
+}
+
+
+.botaoContato{
+    z-index: 1; 
+}
+.botaoContato button{
+    position: relative;
+    cursor: pointer;
+    right: 20px;
+    text-align: center;
+    border: 0;
+    background-color: rgb(0, 153, 255);
+    color: white;
+    padding: 23px 10px;
+    border-radius: 18px;
+    font-size: 21px;
+    font-weight: bold;
+    transition: all .5s;
+}
+.botaoContato button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 153, 255);
+    
+}
+.botaoContato button:active{
+    transform: scale(1.5);
+    
+}
+
+li#ctt{
+    display: none;
+}
+.controleh1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+    
+}
+.controleh1 h1{
+    color: white;
+    font-size: 110px;
+    font-family: "Libre Baskerville", serif;
+    
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.534);
+    transform: translatey(200%);
+    position: relative;
+    
+}
+#iniciar button{
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 33px;
+    top: 300px;
+    font-weight: bold;
+    text-decoration: none!important;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    border: .5px solid  rgba(0, 153, 255, 0.692);
+    transition: all 1s;
+
+}
+#iniciar button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 255);
+
+}
+#iniciar button:active{
+    transform: scale(1.5);
+
+}
+
+
+/*                                   CONTEÚDO                                          */
+.servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px -316px 192px 207px white;
+    
+    position: relative;
+    margin-top: 1000px;
+}
+
+.controle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    position: relative;
+    bottom: 200px;
+    right: 120px;
+    
+    
+}
+
+
+.controle .primeiroCampoTxt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 40%;
+    
+
+    position: relative;
+    left: 100px;
+    z-index: 2;
+    
+    
+    
+    
+    
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    bottom: 50px;
+    left: 355px;
+    font-family: "Libre Baskerville", serif;
+    
+}
+.texto h1{
+    background-color: rgb(0, 136, 226);
+    padding: 32px;
+    width: 150%;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-family: "Libre Baskerville", serif;
+    
+}
+.texto h3{
+    background-color: rgba(0, 153, 255, 0.158);
+    padding: 0px 19px;
+    color: white;
+    border-radius: 0 0 7px 7px;
+    width: 150%;
+}
+
+.linha{
+    position: relative;
+    top: 78px;
+    color: rgba(4, 155, 255, 0.089);
+    font-size: 50px;
+    width: 500px;
+}
+.controle .primeiroCampoTxt h1{
+    text-align: center;
+    font-size: 25px;
+    white-space: nowrap;
+
+    position: relative;
+
+}
+.controle .primeiroCampoTxt h3{
+    text-align: center;
+    font-size: 17px;
+    white-space: nowrap;
+    color: rgba(0, 0, 0, 0.322);
+    position: relative;
+}
+.controle .primeiroCampoTxt #h3Gordin{
+    font-weight: bolder;
+    color:rgb(0, 153, 255);
+    font-size: 30px;
+    transition: all 1s;
+}
+
+.controle .primeiroCampoTxt #pTexto{
+    font-size: 19px;
+    line-height: 35px;
+    text-indent: 20px;
+    text-align: justify;
+    width: 95%;
+    color: rgba(0, 0, 0, 0.267);
+    box-shadow: 0px 20px 26px -24px rgba(0, 0, 0, 0.226);
+    border-radius: 10px;
+    padding: 10px;
+    
+
+    position: relative;
+    bottom: 10px;
+    transition: all 2s;
+    
+    
+}
+.controle .primeiroCampoTxt #pTexto:hover{
+    color: rgb(0, 0, 0);
+}
+
+.controle img{
+    position: relative;
+    height: 70vh;
+    width: 45%;
+    top: 170px;
+    left: 100px;
+    z-index: 3; /* menor que o texto */
+    border-radius: 25px 0 0 0;
+
+    animation: flutuar
+    2s         /* 2s de duração da animação */
+    ease-in-out/* início e fim suave, rápido no centro*/
+    infinite   /* Mantém em loop */
+    alternate; /* Mantém alternando - ajuda na suavidade */
+    
+    transition: 1s;
+    
+}
+.controle img:hover{
+    cursor: pointer;
+    transform: scale(.95);
+    
+}
+.controle img:active{
+    transition-duration: 1s;
+    transform: scale(.70);
+    
+}
+
+@keyframes flutuar {
+    0%{
+        top: 160px;
+    }100%{
+        top: 200px;
+    }
+}
+
+
+/*                                   CONTEÚDO > Curvas                                    */
+#imgCurvas{
+    background-image: url(/image/imgCurvas.png);
+}
+.curvas{
+    width: 100vw;
+    height: 68vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position:0% 90%; /*100% na horizontal e 0% na vertical*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*                                   CONTEÚDO > Sobre                                    */
+
+
+.sobreNos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color:#00b2ff;
+    width: 100vw;
+    height: 100%;
+    
+    
+    
+}   
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 30%;
+    
+    
+    
+    
+    
+}
+.controleSobre h1{
+    font-size: 100px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 0px 1px 149px rgba(0, 0, 0, 0.336);
+    bottom: 100px;
+    
+    
+}
+.primeiroCampoSobre{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    position: relative;
+    
+    
+    
+    
+}
+#pTextoSobre {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    
+    
+    
+}
+#pTextoSobre i{
+    color: rgb(230, 196, 4);
+    padding: 0px;
+    font-size: 80px;
+    display: none;
+}
+
+.controleSobre .primeiroCampoSobre #pTextoSobre{
+    text-align: center;
+    line-height: 39px;
+    text-indent: 20px;
+    border-radius: 20px 20px 0 0 ;
+    font-size: 23px;
+    width: 60%;
+    height: 25vh;
+    padding: 7px 8px;
+    box-shadow:0px 0px 18px 3px rgba(0, 0, 0, 0.075);
+    color: rgba(0, 0, 0, 0.445);
+    border: .5px solid rgba(255, 255, 255, 0.116);
+    transition: all 2s;
+    background-color: rgb(255, 255, 255);
+    font-family: "Libre Baskerville", serif;
+    
+}
+.controleSobre .primeiroCampoSobre #pTextoSobre:hover{
+    color: black;
+}
+.controleSobre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+    
+}
+
+/*                                   Conteúdo > ImgBackground                                   */
+#img1{
+    background-image: url(/image/limpando.png);
+}
+.primeiroBackground {
+    width: 100vw; /* Agora ocupa toda a tela */
+    height: 100vh; /* Garante que ocupa toda a altura */
+    background-image: url('/image/limpando.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position: 0% 64%; /*100% na horizontal e 0% na vertical*/
+    background-attachment: fixed; /* Mantém fixo ao rolar a página */
+    border-radius: 0 0 40px 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.controleBackground {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.primeiroBackground h1 {
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 29px;
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    width: 95%;
+
+}
+
+/*                                   Conteúdo > conteudo                                   */
+
+.conteudo{
+    background-color:#a0e2ff;
+    width: 100vw;
+    height: 150%;
+    border-radius: 40px 40px 0 0;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 110px;
+
+} 
+.midiaConteudo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    flex-wrap: nowrap;
+    position: relative;
+    bottom: 60px;
+
+}
+
+.midiaConteudo iframe{
+    width: 600px;
+    height: 900px;
+    
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 49px 86px -58px rgba(0, 0, 0, 0.459);
+}
+.facebook{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+.facebook iframe{
+    height: 680px;
+    border-radius: 40px 40px 0 0;
+
+}
+.youtube{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-between;
+    gap: 100px;
+    
+}
+.youtube iframe{
+    height: 700px;
+    border-radius: 0 0 40px 40px;
+}
+
+.controleRedes{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    position: relative;
+    bottom:47px;
+    gap: 400px;
+}
+
+.midiaConteudo i#instagram{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+    
+}
+.midiaConteudo i#instagram:hover{
+    color: rgb(255, 0, 85);
+    transition-duration: 0s;
+}
+.midiaConteudo i#facebook{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+    
+}
+.midiaConteudo i#facebook:hover{
+    color: rgb(0, 102, 255);
+    transition-duration: 0s;
+}
+.midiaConteudo i#youtube{
+    position: relative;
+    font-size: 90px;
+    color: rgba(0, 0, 0, 0.664);
+    padding: 10px 0px;
+    transition: all 10s;
+}
+.midiaConteudo i#youtube:hover{
+    color: red;
+    transition-duration: 0s;
+}
+
+
+
+/*                                   Conteúdo > blog                                   */
+
+
+.blog{
+    background-color:#ffffff;
+    width: 100vw;
+    height: 100%;
+   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+
+}
+.bloxTexto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 800px;
+    border-radius: 10px;
+    
+    
+}
+.bloxTexto h1{
+    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.671);
+    color: yellow;
+    font-size: 120px;
+    text-align: center;
+    position: relative;
+    bottom: 85px;
+    font-family: "Libre Baskerville", serif;
+    
+    
+}
+.bloxTexto p{
+    color: rgba(0, 0, 0, 0.582);
+    font-size: 30px;
+    text-align: center;
+    line-height: 50px;
+    padding: 90px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 41px -23px blue;
+    font-family: "Libre Baskerville", serif;
+    
+    
+}
+.bloxTexto h2{
+    color: rgba(146, 146, 2, 0.63);
+    font-size: 30px;
+    text-align: center;
+    position: relative;
+    top: 95px;
+    font-family: "Libre Baskerville", serif;
+    text-shadow: 0px 1px 249px rgb(0, 0, 0);
+    
+}
+.blogImg{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blogImg img{
+    border-radius: 50px;
+    width: 600px;
+    transform: scale(.8);
+        
+}
+
+/*                                   CONTEÚDO > CurvasAzul                                    */
+#imgCurvasAzul{
+    background-image: url(/image/imgCurvasAzul.png);
+}
+.curvasAzul{
+    width: 100vw;
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position:0% 70%; /*100% na horizontal e 0% na vertical*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0px 0px 283% 125%;
+}
+
+
+/*                                   Conteúdo > Curva Azul BB                                   */
+
+#imgCurvasAzulBB{
+    background-image: url(/image/imgCurvasAzulBB.png);
+}
+.curvasAzulBB{
+    width: 100vw;
+    height: 26vh;
+    background-repeat: no-repeat;
+    background-size: cover; /* Garante que a imagem ocupa toda a tela */
+    background-position:0% 50%; /*100% na horizontal e 0% na vertical*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:0px 24% 0 0;
+}
+.curvasAzulBB h1{
+    text-align: center;
+    font-family: "Libre Baskerville", serif;
+    font-size: 100px;
+    color: rgb(0, 132, 255);
+    position: relative;
+    bottom: 55%;
+    padding: 10px;
+    text-shadow: 0px 1px 249px rgba(0, 0, 0, 0.863);
+    border-radius: 10px;
+    border: .1px solid rgba(0, 132, 255, 0.199);
+}
+.curvasAzulBB p{
+    font-family: "Libre Baskerville", serif;
+    font-size: 30px;
+    color: #00eaff7a;
+    position: relative;
+    bottom: 35%;
+    text-shadow: 0px 1px 249px rgb(0, 0, 0);
+
+}
+
+
+/*                                   Conteúdo > FAQ                                   */
+
+.faq{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+
+}
+.faq p{
+    font-size: 50px;
+    padding: 100px;
+    border-radius: 10px;
+    background-color: white;
+    
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50vw;
+    height: 90%;
+    
+    
+    
+}
+.formulario h1{
+    font-family: "Libre Baskerville", serif;
+    white-space: nowrap;
+    font-size: 32px;
+    text-align: center;
+    color: #015961b9;
+    
+    
+}
+.formulario h2{
+    font-family: "Libre Baskerville", serif;
+    font-size: 26px;
+    text-align: center;
+    color: #027f8aa6;
+    padding: 10px 0;
+    
+    
+}
+.formulario form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 40vw;
+    height: 100%;
+    border-radius: 10px;
+    padding: 10px;
+    border: .5px solid #03808b81;
+    gap: 5%;
+    
+    
+   
+}
+.formulario form input{
+    padding: 20px 10px;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 22px;
+    background-color: white;
+    color: black;
+    outline: none; /* tira o contorno */
+    position: relative;
+    bottom: 0%;
+    
+    
+
+}
+.formulario form textarea{
+    padding: 10px;
+    padding-bottom: 300px;
+    font-size: 22px;
+    border: none;
+    resize: none; /* Para a caixa de texo não redimensionar */
+    width: 100%;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    outline: none; /* tira o contorno */
+    position: relative;
+    bottom: 2%;
+
+}
+.btnEnviar{
+    width: 100%;
+    height:100% ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 20px;
+
+}
+.btnEnviar button{
+    text-align: center;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    cursor: pointer;
+    transition: all 3s;
+
+    
+}
+.btnEnviar button:hover{
+    background-color: rgba(0, 153, 255, 0.123);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 2px solid rgb(0, 153, 255);
+    transition-duration: 0s;
+    
+}
+.btnEnviar button:active{
+    transform: scale(1.5);
+    transition-duration: .5s;
+    
+}
+
+/*                                          RODAPÉ                                           */
+
+footer .pre_rodape{
+    width: 100vw;
+    height: 50%;
+    background-color: #00b2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.controle_pre_rodape{
+    width: 80vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 10px 0;
+}
+.caixas{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.caixas ul p{
+    font-family: "Libre Baskerville", serif;
+    padding-bottom: 25px;
+}
+
+.caixas ul a{
+    text-decoration: none;
+}
+
+.caixas ul li{
+    list-style-type: none; /* Remove os marcadores padrão */
+    font-size: 15px;
+    height: 30px;
+    color: rgba(0, 0, 0, 0.438);
+}
+.caixas ul li:hover{
+    color: #504b06;
+    transform: scale(1.08);
+}
+
+
+.rodape{
+    width: 100vw;
+    height: 50%;
+    background-color: #00b2ff;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: column;
+}
+.contate{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    
+}   
+.linhaDois{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 70px;
+    color:rgba(255, 255, 255, 0.438);
+    position: relative;
+    top: -54px;
+    
+}   
+.logo_redes{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}   
+.logo_redes img{
+    width: 150px;
+    transition: all 2s;
+    border-radius: 50px;
+}   
+.logo_redes img:hover{
+    transform: scale(1.05);
+    transition-duration: 3s;
+    box-shadow:  0px 0px 172px -17px rgb(1, 113, 204);
+    
+}   
+
+.controleRedes2 a{
+    text-decoration: none;
+}
+.controleRedes2 i{
+    font-size: 60px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 2s;
+
+}
+.controleRedes2 i:hover{
+    border: 2px solid rgba(0, 0, 0, 0);
+    transition-duration: 3s;
+
+}
+.controleRedes2 #ins{
+    
+    color: rgb(255, 115, 0);
+}
+.controleRedes2 #you{
+    color: rgb(255, 0, 0);
+    font-size: 65px;
+    padding: 5px;
+}
+.controle_icon{
+    width: 87%;
+    height: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.controle_icon #email{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    padding: 5px;
+    position: relative;
+    top: 3px;
+}
+.controle_icon a{
+    color: rgba(0, 0, 0, 0.637);
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    transition: all 2s;
+}
+.controle_icon a:hover{
+    color: #057db1;
+    transform: scale(1.05);
+    transition-duration: 0s;
+    
+}
+.controle_icon #wpp{
+    color: rgb(3, 189, 3);
+    font-size: 70px;
+    padding: 5px;
+    position: relative;
+    bottom: 25px;
+    transition: all 2s;
+}
+.controle_icon #wpp:hover{
+    transform: scale(1.05);
+    transition-duration: 0s;
+    text-shadow: 10px 10px 100px rgb(1, 204, 1);
+}
+
+
+
+
+footer .rodape .criador{
+    width: 100vw;
+    height: 4vh;
+    background-color: #444001a8;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .rodape .criador a{
+    color: #00b2ff;
+    text-decoration: none;
+    padding: 0 3px;
+    border-radius: 5px;
+    transition: all 3s;
+}
+footer .rodape .criador a:hover{
+    color: #ffffff;
+    background-color: #00b3ff79;
+    transition-duration: 0s;
+}
+footer .rodape .copyright{
+    width: 100vw;
+    height: 5vh;
+    background-color: #000000c2;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Formulário */

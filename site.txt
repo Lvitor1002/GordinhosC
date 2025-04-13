@@ -1,0 +1,34 @@
+Início: Página principal do site.
+
+
+Serviços: Detalhamento dos serviços oferecidos, como limpeza de sofás, poltronas, cadeiras, tapetes e colchões.
+
+
+Sobre Nós: Informações sobre a empresa, missão, visão e valores.
+
+
+Depoimentos: Comentários e avaliações de clientes satisfeitos, aumentando a credibilidade.
+
+Galeria: Fotos de antes e depois dos serviços realizados, demonstrando a qualidade do trabalho.
+
+Blog: Artigos com dicas de manutenção, cuidados com estofados e novidades do setor.
+Contato: Formulário ou informações para que os clientes possam entrar em contato facilmente.
+
+FAQ: Perguntas frequentes que esclarecem dúvidas comuns dos clientes.
+
+
+desktop: 1800px largura 600px altura
+celular: 1040px largura 600px altura
+
+
+Efeito de click no botão:
+
+/* Efeito de clique */
+.add:active{
+    transform: scale(1.5);
+}
+
+
+para o menu: https://www.youtube.com/watch?v=7c8vHHn7g2g&list=PLPITZIuL4OAa8Gu5gDtSKiyZ4o6Qm7OUz&index=1
+
+
